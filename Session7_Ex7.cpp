@@ -6,12 +6,15 @@ int main(){
 	scanf("%d", &a);
 	int arr[a];
 	for(int i=0; i<a; i++){
-		printf("Phan tu thu %d la: ", i+1);
-		if(arr[i]%2!=0){
+		while(1){
+			printf("\nPhan tu thu %d la: ", i+1);
 			scanf("%d", &arr[i]); 
+			if(arr[i]%2!=0){
+			break;
 		}else{
 			printf("Ban hay nhap lai vao chuong trinh mot so le:");
 		}
+	}
 	}
 	return 0;
 }
