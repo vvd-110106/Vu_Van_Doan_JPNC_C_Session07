@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-    int arr[5] = {1, 3, 2, 5,8};
+    int arr[5] = {1, 9, 2, 5,8};
 	int i;
 	for(i = 0;i< 5; i++){
 		printf("%d \n", arr[i]);
@@ -16,7 +16,7 @@ int main(){
             min = arr[i];
         }
     } 
-    printf("Phan tu lon nhat trong mang la: %d\n", arr[4]);
-    printf("Phan tu nho nhat trong mang la: %d\n", arr[0]);
+    printf("Phan tu lon nhat trong mang la: %d\n", max);
+    printf("Phan tu nho nhat trong mang la: %d\n", min);
     return 0;
 }
